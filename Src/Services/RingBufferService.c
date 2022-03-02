@@ -151,9 +151,9 @@ RETURN_TYPE RingBuffer_SRV_GetItemNumber(const RingBuffer_S *pRingBuffer,
     }
 
     uint8_t tmp;
-    if (CircBuffer_SRV_GetIsEmpty(pRingBuffer, &tmp) && tmp) {
+    if (RingBuffer_SRV_GetIsEmpty(pRingBuffer, &tmp) && tmp) {
         *pItemNumber = 0;
-    } else if (CircBuffer_SRV_GetIsFull(pRingBuffer, &tmp) && tmp) {
+    } else if (RingBuffer_SRV_GetIsFull(pRingBuffer, &tmp) && tmp) {
         *pItemNumber = pRingBuffer->maxLen - 1;
     } else {
         if (pRingBuffer->head < pRingBuffer->tail) {

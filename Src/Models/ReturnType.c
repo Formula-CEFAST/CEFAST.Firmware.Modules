@@ -9,7 +9,7 @@
  *
  */
 
-#include "Models/ReturnType.h"
+#include "Modules/Inc/Models/ReturnType.h"
 
 RETURN_TYPE PARSE_HAL_STATUS(HAL_StatusTypeDef status) {
     switch (status) {

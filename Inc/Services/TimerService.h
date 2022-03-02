@@ -13,7 +13,7 @@
 #define TIMER_SERVICE_H_
 
 
-#include "Modules/Inc/Models/ReturnStatus.h"
+#include "Modules/Inc/Models/ReturnType.h"
 
 
 #include <stdint.h>

@@ -36,10 +36,10 @@ typedef enum RETURN_TYPE
 } RETURN_TYPE;
 
 /**
- * @brief Converte o retorno do HAL para RETURN_STATUS
+ * @brief Converte o retorno do HAL para RETURN_TYPE
  *
  * @param status status fornecido pelo HAL
- * @return RETURN_STATUS
+ * @return RETURN_TYPE
  */
 RETURN_TYPE PARSE_HAL_STATUS(HAL_StatusTypeDef status);
 
