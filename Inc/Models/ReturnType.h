@@ -12,8 +12,6 @@
 #ifndef RETURN_TYPE_H_
 #define RETURN_TYPE_H_
 
-#include <main.h>
-
 typedef enum RETURN_TYPE
 {
     CHECKSUM_ERROR        = -16,
@@ -34,13 +32,5 @@ typedef enum RETURN_TYPE
     DETECTED              = -1,
     OK                    = 0,
 } RETURN_TYPE;
-
-/**
- * @brief Converte o retorno do HAL para RETURN_TYPE
- *
- * @param status status fornecido pelo HAL
- * @return RETURN_TYPE
- */
-RETURN_TYPE PARSE_HAL_STATUS(HAL_StatusTypeDef status);
 
 #endif /* RETURN_TYPE_H_ */
