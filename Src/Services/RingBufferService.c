@@ -9,7 +9,7 @@
  *
  */
 
-#include "Modules/Inc/Services/RingBufferService.h"
+#include "Services/RingBufferService.h"
 
 #include <string.h>
 

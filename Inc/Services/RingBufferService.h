@@ -1,6 +1,6 @@
 /**
  * @file RingBufferService.h
- * @author 
+ * @author
  * @brief
  * @version 0.1
  * @date 2022-02-28
@@ -14,7 +14,7 @@
 
 #include <stdint.h>
 
-#include "Modules/Inc/Models/ReturnType.h"
+#include "Models/ReturnType.h"
 
 typedef struct RingBuffer_S {
     void *pBuffer;

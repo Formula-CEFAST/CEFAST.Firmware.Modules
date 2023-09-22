@@ -84,7 +84,7 @@ IncludeCategories:
     Priority:        3
     SortPriority:    3
     CaseSensitive:   false
-  - Regex:           '^"Modules/Inc/Controllers/.*"'
+  - Regex:           '^"Controllers/.*"'
     Priority:        3
     SortPriority:    4
     CaseSensitive:   false
@@ -93,7 +93,7 @@ IncludeCategories:
     Priority:        5
     SortPriority:    5
     CaseSensitive:   false
-  - Regex:           '^"Modules/Inc/Services/.*"'
+  - Regex:           '^"Services/.*"'
     Priority:        5
     SortPriority:    6
     CaseSensitive:   false
@@ -102,7 +102,7 @@ IncludeCategories:
     Priority:        7
     SortPriority:    7
     CaseSensitive:   false
-  - Regex:           '^"Modules/Inc/Drivers/.*"'
+  - Regex:           '^"Drivers/.*"'
     Priority:        7
     SortPriority:    8
     CaseSensitive:   false
@@ -111,12 +111,12 @@ IncludeCategories:
     Priority:        9
     SortPriority:    9
     CaseSensitive:   false
-  - Regex:           '^"Modules/Inc/Models/.*"'
+  - Regex:           '^"Models/.*"'
     Priority:        9
     SortPriority:    10
     CaseSensitive:   false
 # Utils
-  - Regex:           '^"Modules/Inc/Utils"'
+  - Regex:           '^"Utils"'
     Priority:        11
     SortPriority:    11
     CaseSensitive:   false

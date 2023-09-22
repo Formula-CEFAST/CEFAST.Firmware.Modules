@@ -12,11 +12,9 @@
 #ifndef TIMER_SERVICE_H_
 #define TIMER_SERVICE_H_
 
+#include <stdint.h>
 
 #include "Modules/Inc/Models/ReturnType.h"
-
-
-#include <stdint.h>
 
 typedef uint32_t timer_t;
 

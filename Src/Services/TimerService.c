@@ -9,7 +9,7 @@
  * 
  */
 
-#include "Modules/Inc/Services/TimerService.h"
+#include "Services/TimerService.h"
 
 #define MAX_TIME ((timer_t)-1)
 
